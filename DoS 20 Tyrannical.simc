@@ -1,3 +1,4 @@
+fight_style=DungeonRoute
 override.bloodlust=0
 override.arcane_intellect=0
 override.power_word_fortitude=0
@@ -6,37 +7,34 @@ override.mystic_touch=0
 override.chaos_brand=0
 override.bleeding=0
 single_actor_batch=1
-fixed_time=0
-max_time=3600
-ignore_invulnerable_targets=1
+max_time=2580
 enemy="De Other Side 20"
 enemy_health=1
-override.bloodlust=0
-raid_events=/invulnerable,cooldown=3600,duration=3600,retarget=1
-raid_events+=/pull,pull=01,bloodlust=0,delay=012,enemies="Risen Warlord 1":216443|"Risen Cultist 1":120246|"Risen Cultist 2":120246|"Risen Cultist 3":120246|"Risen Bonesoldier 1":96196|"Risen Bonesoldier 2":96196|"Risen Bonesoldier 3":96196
-raid_events+=/pull,pull=02,bloodlust=1,delay=037,enemies="Enraged Spirit 1":216443|"Death Speaker 1":204418|"Risen Bonesoldier 1":96196|"Risen Cultist 1":120246|"Risen Cultist 2":120246|"Risen Cultist 3":120246|"Skeletal Raptor 1":59684
-raid_events+=/pull,pull=03,bloodlust=0,delay=008,enemies="Incinerator Arkolath 1":363021
-raid_events+=/pull,pull=04,bloodlust=0,delay=022,enemies="Risen Warlord 1":216443|"Risen Warlord 2":216443|"Risen Bonesoldier 1":96196|"Skeletal Raptor 1":59684|"Skeletal Raptor 2":59684|"Skeletal Raptor 3":59684|"Skeletal Raptor 4":59684
-raid_events+=/pull,pull=05,bloodlust=0,delay=014,enemies="Enraged Spirit 1":216443
-raid_events+=/pull,pull=06,bloodlust=0,delay=021,enemies="Death Speaker 1":204418|"Risen Cultist 1":120246|"Risen Bonesoldier 1":96196|"Risen Bonesoldier 2":96196|"Risen Bonesoldier 3":96196|"Skeletal Raptor 1":59684|"Skeletal Raptor 2":59684|"Oros Coldheart 1":363021
-raid_events+=/pull,pull=07,bloodlust=0,delay=034,enemies="Executioner Varruth 1":363021
-raid_events+=/pull,pull=08,bloodlust=0,delay=014,enemies="Defunct Dental Drill 1":216443
-raid_events+=/pull,pull=09,bloodlust=0,delay=007,enemies="4.RF-4.RF 1":216443|"Headless Client 1":120246|"Headless Client 2":120246|"Headless Client 3":120246|"Headless Client 4":120246
-raid_events+=/pull,pull=10,bloodlust=0,delay=010,enemies="Defunct Dental Drill 1":216443
-raid_events+=/pull,pull=11,bloodlust=0,delay=011,enemies="Lubricator 1":168344
-raid_events+=/pull,pull=12,bloodlust=0,delay=012,enemies="Lubricator 1":168344|"Lubricator 2":168344
-raid_events+=/pull,pull=13,bloodlust=0,delay=004,enemies="Sentient Oil 1":132270|"Sentient Oil 2":132270|"Sentient Oil 3":132270
-raid_events+=/pull,pull=14,bloodlust=1,delay=035,enemies="Millificent Manastorm":645919
-raid_events+=/pull,pull=15,bloodlust=0,delay=000,enemies="Millhouse Manastorm":758254
-raid_events+=/pull,pull=16,bloodlust=0,delay=080,enemies="Runestag Elderhorn 1":144295|"Weald Shimmermoth 1":108221|"Weald Shimmermoth 2":108221|"Weald Shimmermoth 3":108221|"Weald Shimmermoth 4":108221|"Spriggan Mendbender 1":84172|"Spriggan Mendbender 2":84172|"Spriggan Mendbender 3":84172|"Spriggan Barkbinder 1":84172|"Spriggan Barkbinder 2":84172|"Spriggan Barkbinder 3":84172|"Spriggan Barkbinder 4":84172|"Juvenile Runestag 1":96196|"Juvenile Runestag 2":96196
-raid_events+=/pull,pull=17,bloodlust=0,delay=004,enemies="Soggodon the Breaker 1":387223
-raid_events+=/pull,pull=18,bloodlust=0,delay=010,enemies="Runestag Elderhorn 1":144295|"Territorial Bladebeak 1":120246|"Territorial Bladebeak 2":120246|"Territorial Bladebeak 3":120246|"Territorial Bladebeak 4":120246|"Juvenile Runestag 1":96196|"Juvenile Runestag 2":96196
-raid_events+=/pull,pull=19,bloodlust=0,delay=009,enemies="Territorial Bladebeak 1":120246|"Territorial Bladebeak 2":120246|"Territorial Bladebeak 3":120246|"Territorial Bladebeak 4":120246|"Territorial Bladebeak 5":120246|"Territorial Bladebeak 6":120246|"Territorial Bladebeak 7":120246|"Territorial Bladebeak 8":120246|"Territorial Bladebeak 9":120246|"Runestag Elderhorn 1":144295|"Spriggan Barkbinder 1":84172|"Spriggan Barkbinder 2":84172|"Spriggan Barkbinder 3":84172|"Spriggan Barkbinder 4":84172|"Spriggan Mendbender 1":84172|"Spriggan Mendbender 2":84172|"Juvenile Runestag 1":96196|"Juvenile Runestag 2":96196
-raid_events+=/pull,pull=20,bloodlust=0,delay=000,enemies="Runestag Elderhorn 1":144295|"Territorial Bladebeak 1":120246|"Territorial Bladebeak 2":120246|"Territorial Bladebeak 3":120246|"Weald Shimmermoth 1":108221|"Weald Shimmermoth 2":108221|"Weald Shimmermoth 3":108221|"Weald Shimmermoth 4":108221|"Juvenile Runestag 1":96196|"Juvenile Runestag 2":96196|"Spriggan Barkbinder 1":84172|"Spriggan Barkbinder 2":84172|"Spriggan Barkbinder 3":84172|"Spriggan Barkbinder 4":84172|"Spriggan Barkbinder 5":84172|"Spriggan Mendbender 1":84172|"Spriggan Mendbender 2":84172|"Bladebeak Hatchling 1":24049
-raid_events+=/pull,pull=21,bloodlust=1,delay=020,enemies="Dealer Xy'exa 1":1060931
-raid_events+=/pull,pull=22,bloodlust=0,delay=106,enemies="Atal'ai High Priest 1":132270|"Atal'ai Devoted 1":24049|"Atal'ai Devoted 2":24049
-raid_events+=/pull,pull=23,bloodlust=0,delay=000,enemies="Atal'ai Hoodoo Hexxer 1":192393|"Atal'ai High Priest 1":132270|"Atal'ai Deathwalker 1":144295|"Atal'ai Deathwalker 2":144295
-raid_events+=/pull,pull=24,bloodlust=0,delay=005,enemies="Atal'ai Hoodoo Hexxer 1":192393|"Atal'ai Devoted 1":24049|"Atal'ai Devoted 2":24049|"Atal'ai Devoted 3":24049
-raid_events+=/pull,pull=25,bloodlust=0,delay=004,enemies="Atal'ai Hoodoo Hexxer 1":192393|"Atal'ai High Priest 1":132270|"Atal'ai Deathwalker 1":144295|"Atal'ai Deathwalker 2":144295
-raid_events+=/pull,pull=26,bloodlust=0,delay=015,enemies="Hakkar the Soulflayer 1":904912
-raid_events+=/pull,pull=27,bloodlust=1,delay=070,enemies="Mueh'zala 1":1248154
+raid_events=/invulnerable,cooldown=5160,duration=5160,retarget=1
+raid_events+=/pull,pull=01,bloodlust=0,delay=012,enemies="Risen_Warlord_1":216443|"Risen_Cultist_1":120246|"Risen_Cultist_2":120246|"Risen_Cultist_3":120246|"Risen_Bonesoldier_1":96196|"Risen_Bonesoldier_2":96196|"Risen_Bonesoldier_3":96196
+raid_events+=/pull,pull=02,bloodlust=1,delay=037,enemies="Enraged_Spirit_1":216443|"Death_Speaker_1":204418|"Risen_Bonesoldier_1":96196|"Risen_Cultist_1":120246|"Risen_Cultist_2":120246|"Risen_Cultist_3":120246|"Skeletal_Raptor_1":59684
+raid_events+=/pull,pull=03,bloodlust=0,delay=008,enemies="Incinerator_Arkolath_1":363021
+raid_events+=/pull,pull=04,bloodlust=0,delay=022,enemies="Risen_Warlord_1":216443|"Risen_Warlord_2":216443|"Risen_Bonesoldier_1":96196|"Skeletal_Raptor_1":59684|"Skeletal_Raptor_2":59684|"Skeletal_Raptor_3":59684|"Skeletal_Raptor_4":59684
+raid_events+=/pull,pull=05,bloodlust=0,delay=014,enemies="Enraged_Spirit_1":216443
+raid_events+=/pull,pull=06,bloodlust=0,delay=021,enemies="Death_Speaker_1":204418|"Risen_Cultist_1":120246|"Risen_Bonesoldier_1":96196|"Risen_Bonesoldier_2":96196|"Risen_Bonesoldier_3":96196|"Skeletal_Raptor_1":59684|"Skeletal_Raptor_2":59684|"Oros_Coldheart_1":363021
+raid_events+=/pull,pull=07,bloodlust=0,delay=034,enemies="Executioner_Varruth_1":363021
+raid_events+=/pull,pull=08,bloodlust=0,delay=014,enemies="Defunct_Dental_Drill_1":216443
+raid_events+=/pull,pull=09,bloodlust=0,delay=007,enemies="4.RF-4.RF_1":216443|"Headless_Client_1":120246|"Headless_Client_2":120246|"Headless_Client_3":120246|"Headless_Client_4":120246
+raid_events+=/pull,pull=10,bloodlust=0,delay=010,enemies="Defunct_Dental_Drill_1":216443
+raid_events+=/pull,pull=11,bloodlust=0,delay=011,enemies="Lubricator_1":168344
+raid_events+=/pull,pull=12,bloodlust=0,delay=012,enemies="Lubricator_1":168344|"Lubricator_2":168344
+raid_events+=/pull,pull=13,bloodlust=0,delay=004,enemies="Sentient_Oil_1":132270|"Sentient_Oil_2":132270|"Sentient_Oil_3":132270
+raid_events+=/pull,pull=14,bloodlust=1,delay=035,enemies="Millificent_Manastorm":645919
+raid_events+=/pull,pull=15,bloodlust=0,delay=000,enemies="Millhouse_Manastorm":758254
+raid_events+=/pull,pull=16,bloodlust=0,delay=080,enemies="Runestag_Elderhorn_1":144295|"Weald_Shimmermoth_1":108221|"Weald_Shimmermoth_2":108221|"Weald_Shimmermoth_3":108221|"Weald_Shimmermoth_4":108221|"Spriggan_Mendbender_1":84172|"Spriggan_Mendbender_2":84172|"Spriggan_Mendbender_3":84172|"Spriggan_Barkbinder_1":84172|"Spriggan_Barkbinder_2":84172|"Spriggan_Barkbinder_3":84172|"Spriggan_Barkbinder_4":84172|"Juvenile_Runestag_1":96196|"Juvenile_Runestag_2":96196
+raid_events+=/pull,pull=17,bloodlust=0,delay=004,enemies="Soggodon_the_Breaker_1":387223
+raid_events+=/pull,pull=18,bloodlust=0,delay=010,enemies="Runestag_Elderhorn_1":144295|"Territorial_Bladebeak_1":120246|"Territorial_Bladebeak_2":120246|"Territorial_Bladebeak_3":120246|"Territorial_Bladebeak_4":120246|"Juvenile_Runestag_1":96196|"Juvenile_Runestag_2":96196
+raid_events+=/pull,pull=19,bloodlust=0,delay=009,enemies="Territorial_Bladebeak_1":120246|"Territorial_Bladebeak_2":120246|"Territorial_Bladebeak_3":120246|"Territorial_Bladebeak_4":120246|"Territorial_Bladebeak_5":120246|"Territorial_Bladebeak_6":120246|"Territorial_Bladebeak_7":120246|"Territorial_Bladebeak_8":120246|"Territorial_Bladebeak_9":120246|"Runestag_Elderhorn_1":144295|"Spriggan_Barkbinder_1":84172|"Spriggan_Barkbinder_2":84172|"Spriggan_Barkbinder_3":84172|"Spriggan_Barkbinder_4":84172|"Spriggan_Mendbender_1":84172|"Spriggan_Mendbender_2":84172|"Juvenile_Runestag_1":96196|"Juvenile_Runestag_2":96196
+raid_events+=/pull,pull=20,bloodlust=0,delay=000,enemies="Runestag_Elderhorn_1":144295|"Territorial_Bladebeak_1":120246|"Territorial_Bladebeak_2":120246|"Territorial_Bladebeak_3":120246|"Weald_Shimmermoth_1":108221|"Weald_Shimmermoth_2":108221|"Weald_Shimmermoth_3":108221|"Weald_Shimmermoth_4":108221|"Juvenile_Runestag_1":96196|"Juvenile_Runestag_2":96196|"Spriggan_Barkbinder_1":84172|"Spriggan_Barkbinder_2":84172|"Spriggan_Barkbinder_3":84172|"Spriggan_Barkbinder_4":84172|"Spriggan_Barkbinder_5":84172|"Spriggan_Mendbender_1":84172|"Spriggan_Mendbender_2":84172|"Bladebeak_Hatchling_1":24049
+raid_events+=/pull,pull=21,bloodlust=1,delay=020,enemies="Dealer_Xy'exa":1060931
+raid_events+=/pull,pull=22,bloodlust=0,delay=106,enemies="Atal'ai_High_Priest_1":132270|"Atal'ai_Devoted_1":24049|"Atal'ai_Devoted_2":24049
+raid_events+=/pull,pull=23,bloodlust=0,delay=000,enemies="Atal'ai_Hoodoo_Hexxer_1":192393|"Atal'ai_High_Priest_1":132270|"Atal'ai_Deathwalker_1":144295|"Atal'ai_Deathwalker_2":144295
+raid_events+=/pull,pull=24,bloodlust=0,delay=005,enemies="Atal'ai_Hoodoo_Hexxer_1":192393|"Atal'ai_Devoted_1":24049|"Atal'ai_Devoted_2":24049|"Atal'ai_Devoted_3":24049
+raid_events+=/pull,pull=25,bloodlust=0,delay=004,enemies="Atal'ai_Hoodoo_Hexxer_1":192393|"Atal'ai_High_Priest_1":132270|"Atal'ai_Deathwalker_1":144295|"Atal'ai_Deathwalker_2":144295
+raid_events+=/pull,pull=26,bloodlust=0,delay=015,enemies="Hakkar_the_Soulflayer":904912
+raid_events+=/pull,pull=27,bloodlust=1,delay=070,enemies="Mueh'zala":1248154
