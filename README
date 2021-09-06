@@ -1,0 +1,14 @@
+https://wago.io/Yya4XBbl-
+Exports MDT routes into simc raid events for simming realistic dungeon runs.
+
+Requires the MythicDungeonTools addon https://github.com/Nnoggie/MythicDungeonTools
+
+The "Simc Export" button exports all mobs with a fraction of their hp to attempt to simulate a single character's dps contribution to the dungeon using just one character profile. Currently defaults to 27%, a rough average based on logs, but can be configured with the "mob health %" input box. This value must be from 0 to 100 and should only be changed if you're sure you know what you're doing. For example, this set to 100 would export all mobs with full hp in the case you were going to sim a full dungeon run with 5 character profiles (see below for other important changes required for that case).
+
+Advanced usage:
+The exported string contains sim options and a raid event list that matches the active route, for the full raid event documentation see https://github.com/simulationcraft/simc/wiki/RaidEvents#pull
+To ensure a more accurate sim, this resulting string can be modified for more advanced configuration:
+
+- The buff overrides at the top can be modifed to enable any buffs that your desired group composition will provide.
+- For each raid event in the resulting list, the delay and bloodlust options can be adjusted for an even more accurate representation of the dungeon. These delay values should ideally come from logs of past dungeon runs to establish approximate travel times to the pulls. The bloodlust option forces a bloodlust cast at the start of the pull.
+- If multiple character profiles are intended to be simmed at once with the desire that both characters damage affects the same mobs, the single_actor_batch option should be changed to 0 and the mob health % input should be increased (doubled for 2 dps players etc.) accordingly to increase the mob hp.
