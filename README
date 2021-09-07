@@ -1,14 +1,31 @@
+These sample exports based on logs of timed m+ runs should be adequate for most non bleeding edge players just looking for a more accurate dungeon sim results.
+The contents of the presets should be copied into a sim profile for local simc installations or into the Footer section of Raidbots assuming SimC Expert Mode is enabled.
+More advanced users who are willing to put in a bit of effort to properly configure things can refer to below for generating their own custom simc input based on their own routes.
+
 https://wago.io/Yya4XBbl-
-Exports MDT routes into simc raid events for simming realistic dungeon runs.
+Exports MDT routes into simc raid events.
 
-Requires the MythicDungeonTools addon https://github.com/Nnoggie/MythicDungeonTools
+Requires the addon MythicDungeonTools:
+https://github.com/Nnoggie/MythicDungeonTools
 
-The "Simc Export" button exports all mobs with a fraction of their hp to attempt to simulate a single character's dps contribution to the dungeon using just one character profile. Currently defaults to 27%, a rough average based on logs, but can be configured with the "mob health %" input box. This value must be from 0 to 100 and should only be changed if you're sure you know what you're doing. For example, this set to 100 would export all mobs with full hp in the case you were going to sim a full dungeon run with 5 character profiles (see below for other important changes required for that case).
+The "Simc Export" button exports all mobs with a fraction of their hp to attempt to simulate a single player's dps contribution to the dungeon using just one character profile.
+Currently defaults to 27%, a rough average based on logs, but can be configured with the "mob health %" input box.
+This value must be from 0 to 100 and should only be changed if you're sure you know what you're doing.
+For example, this set to 100 would export all mobs with full hp in the case you were going to sim a full dungeon run with 5 character profiles.
+(see below for other important changes required for that case).
+
+For this to take effect in Raidbots modes other than Advanced, "SimC Expert Mode" must be enabled and the simc export string pasted into the Footer section.
 
 Advanced usage:
-The exported string contains sim options and a raid event list that matches the active route, for the full raid event documentation see https://github.com/simulationcraft/simc/wiki/RaidEvents#pull
+The exported string contains sim options and a raid event list that matches the active route, for the full raid event documentation see the SimC Wiki:
+https://github.com/simulationcraft/simc/wiki/RaidEvents#pull
+
 To ensure a more accurate sim, this resulting string can be modified for more advanced configuration:
 
 - The buff overrides at the top can be modifed to enable any buffs that your desired group composition will provide.
-- For each raid event in the resulting list, the delay and bloodlust options can be adjusted for an even more accurate representation of the dungeon. These delay values should ideally come from logs of past dungeon runs to establish approximate travel times to the pulls. The bloodlust option forces a bloodlust cast at the start of the pull.
-- If multiple character profiles are intended to be simmed at once with the desire that both characters damage affects the same mobs, the single_actor_batch option should be changed to 0 and the mob health % input should be increased (doubled for 2 dps players etc.) accordingly to increase the mob hp.
+- The delay values on each raid event line should ideally come from logs of past dungeon runs to establish approximate travel times to the pulls.
+- The bloodlust option on each raid event line forces a bloodlust cast at the start of that pull.
+- If multiple players are to be simmed at once with the desire that each player's damage affects the same mobs,
+    the single_actor_batch option should be changed to 0 and the mob health % input should be increased (doubled for 2 dps players etc.) accordingly to increase the mob hp.
+    Using a value of 100 and using 5 character profiles in the simc input would basically sim an entire dungeon run as if a real 5 player group was running it,
+    with packs dying realistically according to the group's combined damage.

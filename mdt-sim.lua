@@ -64,6 +64,7 @@ local export = function(mult)
     local events = {}
     
     local pull = 1
+    print(#frame.newPullButtons.." pulls")
     for i = 1, #frame.newPullButtons do
         local raid_event = "raid_events+=/pull,pull="..string.format("%02d", pull)..",bloodlust=0,delay=000,enemies="
         
