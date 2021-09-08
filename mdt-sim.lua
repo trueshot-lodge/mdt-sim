@@ -64,7 +64,6 @@ local export = function(mult)
     local events = {}
     
     local pull = 1
-    print(#frame.newPullButtons.." pulls")
     for i = 1, #frame.newPullButtons do
         local raid_event = "raid_events+=/pull,pull="..string.format("%02d", pull)..",bloodlust=0,delay=000,enemies="
         
@@ -132,6 +131,7 @@ local export = function(mult)
                                 local fixed_name = string.gsub(enemy.name, "\"", "`")
                                 fixed_name = string.gsub(fixed_name, "%:", "")
                                 fixed_name = string.gsub(fixed_name, " ", "_")
+                                fixed_name = string.gsub(fixed_name, ",", "")
                                 
                                 raid_event = raid_event.."\""..fixed_name..unit.."\":"..floor(health)
                             end
