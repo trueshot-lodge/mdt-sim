@@ -1,9 +1,9 @@
 fight_style=DungeonRoute
 override.bloodlust=0
 override.arcane_intellect=0
-override.power_word_fortitude=1
+override.power_word_fortitude=0
 override.battle_shout=0
-override.mystic_touch=1
+override.mystic_touch=0
 override.chaos_brand=0
 override.bleeding=0
 single_actor_batch=1
