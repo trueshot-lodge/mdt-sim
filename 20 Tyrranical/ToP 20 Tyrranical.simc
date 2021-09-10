@@ -37,4 +37,4 @@ raid_events+=/pull,pull=23,bloodlust=0,delay=015,enemies="Putrid_Butcher_1":1442
 raid_events+=/pull,pull=24,bloodlust=0,delay=010,enemies="Rancid_Gasbag_1":228467|"Blighted_Sludge-Spewer_1":96196|"Disgusting_Refuse_1":30061|"Disgusting_Refuse_2":30061|"Disgusting_Refuse_3":30061|"Disgusting_Refuse_4":30061|"Disgusting_Refuse_5":30061
 raid_events+=/pull,pull=25,bloodlust=0,delay=000,enemies="Putrid_Butcher_1":144295|"Diseased_Horror_1":120246
 raid_events+=/pull,pull=26,bloodlust=0,delay=010,enemies="Gorechop":1092135
-raid_events+=/pull,pull=27,bloodlust=1,delay=060,enemies="Mordretha,_the_Endless_Empress":1248154
+raid_events+=/pull,pull=27,bloodlust=1,delay=060,enemies="Mordretha_the_Endless_Empress":1248154
