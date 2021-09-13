@@ -1,5 +1,7 @@
-These sample exports based on logs of timed m+ runs should be adequate for most non bleeding edge players just looking for a more accurate dungeon sim results.
-The contents of the presets should be copied into a sim profile for local simc installations or into the Footer section of Raidbots assuming SimC Expert Mode is enabled.
+Most existing modes for simming dungeons try to create a very generalized dungeon experience with time based add spawns. Instead, this alternate mode tries to spawn mobs using actual hp amounts found in game and grouped together in pulls. The mob lifetimes are then determined by how fast the sim actors actually deal damage to the spawned enemies. It also tries to make simming specific dungeons easier by allowing the pulls to be defined easily by an MDT export, and allows them to be configured with travel times between the pulls and per-pull bloodlust usage to further improve sim accuracy.
+
+The sample exports in this repo are based on logs of real timed m+ runs and should be adequate for most non bleeding edge players just looking for more accurate dungeon sim results. The contents of the presets should be copied into a sim profile for local simc installations or into the Footer section of Raidbots assuming SimC Expert Mode is enabled.
+
 More advanced users who are willing to put in a bit of effort to properly configure things can refer to below for generating their own custom simc input based on their own routes.
 
 https://wago.io/Yya4XBbl-
@@ -8,11 +10,7 @@ Exports MDT routes into simc raid events.
 Requires the addon MythicDungeonTools:
 https://github.com/Nnoggie/MythicDungeonTools
 
-The "Simc Export" button exports all mobs with a fraction of their hp to attempt to simulate a single player's dps contribution to the dungeon using just one character profile.
-Currently defaults to 27%, a rough average based on logs, but can be configured with the "mob health %" input box.
-This value must be from 0 to 100 and should only be changed if you're sure you know what you're doing.
-For example, this set to 100 would export all mobs with full hp in the case you were going to sim a full dungeon run with 5 character profiles.
-(see below for other important changes required for that case).
+The "Simc Export" button exports all mobs with a fraction of their hp to attempt to simulate a single player's dps contribution to the dungeon using just one character profile. This defaults to 27%, a rough average based on logs, but can be configured with the "mob health %" input box. This value must be from 0 to 100 and should only be changed if you're sure you know what you're doing. For example, this set to 100 would export all mobs with full hp in the case you were going to sim a full dungeon run with 5 character profiles (see below for other important changes required for that case).
 
 For this to take effect in Raidbots modes other than Advanced, "SimC Expert Mode" must be enabled and the simc export string pasted into the Footer section.
 
