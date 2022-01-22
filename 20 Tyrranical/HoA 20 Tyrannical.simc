@@ -9,7 +9,7 @@ override.bleeding=0
 single_actor_batch=1
 max_time=1920
 enemy="Halls of Atonement 20"
-enemy_health=1
+enemy_health=999999
 raid_events=/invulnerable,cooldown=3840,duration=3840,retarget=1
 raid_events+=/pull,pull=01,bloodlust=1,delay=020,enemies="Depraved_Darkblade_1":120246|"Depraved_Darkblade_2":120246|"Depraved_Darkblade_3":120246|"Vicious_Gargon_1":132270|"Vicious_Gargon_2":132270|"Depraved_Houndmaster_1":108221|"Depraved_Obliterator_1":108221
 raid_events+=/pull,pull=02,bloodlust=0,delay=000,enemies="Depraved_Darkblade_1":120246|"Depraved_Obliterator_1":108221|"Vicious_Gargon_1":132270|"Vicious_Gargon_2":132270|"Depraved_Houndmaster_1":108221|"Toiling_Groundskeeper_1":72147|"Toiling_Groundskeeper_2":72147|"Toiling_Groundskeeper_3":72147|"Toiling_Groundskeeper_4":72147|"Toiling_Groundskeeper_5":72147

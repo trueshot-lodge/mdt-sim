@@ -9,7 +9,7 @@ override.bleeding=0
 single_actor_batch=1
 max_time=2160
 enemy="The Necrotic Wake 20"
-enemy_health=1
+enemy_health=999999
 raid_events=/invulnerable,cooldown=4320,duration=4320,retarget=1
 raid_events+=/pull,pull=01,bloodlust=0,delay=010,enemies="Stitched_Vanguard_1":202013|"Corpse_Harvester_1":202013|"Corpse_Harvester_2":202013|"Patchwerk_Soldier_1":144295|"Patchwerk_Soldier_2":144295|"Patchwerk_Soldier_3":144295|"Patchwerk_Soldier_4":144295|"Patchwerk_Soldier_5":144295|"Blight_Bag_1":57718|"Blight_Bag_2":57718|"Blight_Bag_3":57718|"Blight_Bag_4":57718|"Blight_Bag_5":57718|"Blight_Bag_6":57718|"Blight_Bag_7":57718
 raid_events+=/pull,pull=02,bloodlust=0,delay=000,enemies="Incinerator_Arkolath_1":363021

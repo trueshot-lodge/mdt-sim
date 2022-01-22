@@ -9,7 +9,7 @@ override.bleeding=0
 single_actor_batch=1
 max_time=2220
 enemy="Theater of Pain 20"
-enemy_health=1
+enemy_health=999999
 raid_events=/invulnerable,cooldown=4440,duration=4440,retarget=1
 raid_events+=/pull,pull=01,bloodlust=1,delay=022,enemies="Raging_Bloodhorn_1":216443|"Paceran_the_Virulent":499261|"Dessia_the_Decapitator":561669|"Sathel_the_Accursed":436854
 raid_events+=/pull,pull=02,bloodlust=0,delay=030,enemies="Executioner_Varruth_1":363021

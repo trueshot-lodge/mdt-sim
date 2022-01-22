@@ -9,7 +9,7 @@ override.bleeding=0
 single_actor_batch=1
 max_time=2280
 enemy="Plaguefall 20"
-enemy_health=1
+enemy_health=999999
 raid_events=/invulnerable,cooldown=4560,duration=4560,retarget=1
 raid_events+=/pull,pull=01,bloodlust=0,delay=035,enemies="Executioner_Varruth_1":363021
 raid_events+=/pull,pull=02,bloodlust=0,delay=010,enemies="Gushing_Slime_1":36073|"Gushing_Slime_2":36073|"Gushing_Slime_3":36073|"Gushing_Slime_4":36073|"Gushing_Slime_5":36073|"Gushing_Slime_6":36073|"Gushing_Slime_7":36073|"Gushing_Slime_8":36073|"Gushing_Slime_9":36073|"Gushing_Slime_10":36073|"Gushing_Slime_11":36073|"Gushing_Slime_12":36073|"Gushing_Slime_13":36073|"Gushing_Slime_14":36073|"Gushing_Slime_15":36073|"Gushing_Slime_16":36073|"Gushing_Slime_17":36073|"Gushing_Slime_18":36073|"Gushing_Slime_19":36073|"Gushing_Slime_20":36073

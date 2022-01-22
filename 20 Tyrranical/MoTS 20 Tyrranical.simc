@@ -9,7 +9,7 @@ override.bleeding=0
 single_actor_batch=1
 max_time=1800
 enemy="Mists of Tirna Scithe 20"
-enemy_health=1
+enemy_health=999999
 raid_events=/invulnerable,cooldown=3600,duration=3600,retarget=1
 raid_events+=/pull,pull=01,bloodlust=0,delay=030,enemies="Tirnenn_Villager_1":288590|"Drust_Soulcleaver_1":108221|"Drust_Soulcleaver_2":108221|"Drust_Harvester_1":108221|"Drust_Spiteclaw_1":60123|"Drust_Spiteclaw_2":60123|"Drust_Spiteclaw_3":60123|"Drust_Spiteclaw_4":60123|"Drust_Spiteclaw_5":60123
 raid_events+=/pull,pull=02,bloodlust=0,delay=020,enemies="Drust_Harvester_1":108221|"Drust_Harvester_2":108221|"Drust_Soulcleaver_1":108221|"Drust_Soulcleaver_2":108221

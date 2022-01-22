@@ -9,7 +9,7 @@ override.bleeding=0
 single_actor_batch=1
 max_time=2580
 enemy="De Other Side 20"
-enemy_health=1
+enemy_health=999999
 raid_events=/invulnerable,cooldown=5160,duration=5160,retarget=1
 raid_events+=/pull,pull=01,bloodlust=0,delay=012,enemies="Risen_Warlord_1":216443|"Risen_Cultist_1":120246|"Risen_Cultist_2":120246|"Risen_Cultist_3":120246|"Risen_Bonesoldier_1":96196|"Risen_Bonesoldier_2":96196|"Risen_Bonesoldier_3":96196
 raid_events+=/pull,pull=02,bloodlust=1,delay=037,enemies="Enraged_Spirit_1":216443|"Death_Speaker_1":204418|"Risen_Bonesoldier_1":96196|"Risen_Cultist_1":120246|"Risen_Cultist_2":120246|"Risen_Cultist_3":120246|"Skeletal_Raptor_1":59684

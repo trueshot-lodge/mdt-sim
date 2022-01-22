@@ -9,7 +9,7 @@ override.bleeding=0
 single_actor_batch=1
 max_time=2460
 enemy="Sanguine Depths 20"
-enemy_health=1
+enemy_health=999999
 raid_events=/invulnerable,cooldown=4920,duration=4920,retarget=1
 raid_events+=/pull,pull=01,bloodlust=0,delay=020,enemies="Regal_Mistdancer_1":192393|"Noble_Skirmisher_1":120246|"Noble_Skirmisher_2":120246|"Noble_Skirmisher_3":120246|"Dreadful_Huntmaster_1":108221|"Dreadful_Huntmaster_2":108221|"Dreadful_Huntmaster_3":108221|"Famished_Tick_1":72147|"Famished_Tick_2":72147|"Famished_Tick_3":72147|"Famished_Tick_4":72147
 raid_events+=/pull,pull=02,bloodlust=0,delay=005,enemies="Insatiable_Brute_1":180369|"Gluttonous_Tick_1":108221

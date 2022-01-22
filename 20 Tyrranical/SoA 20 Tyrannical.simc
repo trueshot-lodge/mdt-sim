@@ -9,7 +9,7 @@ override.bleeding=0
 single_actor_batch=1
 max_time=2340
 enemy="Spires of Ascension 20"
-enemy_health=1
+enemy_health=999999
 raid_events=/invulnerable,cooldown=4680,duration=4680,retarget=1
 raid_events+=/pull,pull=01,bloodlust=0,delay=035,enemies="Forsworn_Goliath_1":264541|"Forsworn_Mender_1":96196|"Forsworn_Vanguard_1":120246|"Forsworn_Vanguard_2":120246|"Forsworn_Vanguard_3":120246|"Forsworn_Castigator_1":120246|"Forsworn_Castigator_2":120246
 raid_events+=/pull,pull=02,bloodlust=0,delay=005,enemies="Forsworn_Mender_1":96196|"Forsworn_Vanguard_1":120246|"Forsworn_Castigator_1":120246
