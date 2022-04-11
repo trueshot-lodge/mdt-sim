@@ -1,29 +1,28 @@
-Most existing modes for simming dungeons try to create a very generalized dungeon experience with time based add spawns. Instead, this alternate mode tries to spawn mobs using actual hp amounts found in game and grouped together in pulls. The mob lifetimes are then determined by how fast the sim actors actually deal damage to the spawned enemies. It also tries to make simming specific dungeons easier by allowing the pulls to be defined easily by an MDT export, and allows them to be configured with travel times between the pulls and per-pull bloodlust usage to further improve sim accuracy.
+Most existing modes for simming dungeons try to create a very generalized dungeon experience with time based add spawns. Instead, this mode spawn mobs using actual hp amounts found in game and grouped together in pulls. The mob lifetimes are then determined by how fast the sim actors actually deal damage to the spawned enemies. It also tries to make simming specific dungeons easier by allowing the pulls to be defined easily by an MythicDungeonTools export, and allows them to be configured with travel times between the pulls and per-pull bloodlust usage to further improve sim accuracy.
 
-The sample exports in this repo are based on logs of real timed m+ runs and should be adequate for most non bleeding edge players just looking for more accurate dungeon sim results. The contents of the presets should be copied into a sim profile for local simc installations or into the Footer section of Raidbots assuming SimC Expert Mode is enabled.
+The exports here in the samples directory are based on logs of real timed m+ runs and should be adequate for most players just looking for more accurate dungeon sim results. I highly recommend them if you do not plan on configuring your own exports thoroughly with the options explained below under Advanced Usage.
 
-More advanced users who are willing to put in a bit of effort to properly configure things can refer to below for generating their own custom simc input based on their own routes.
-
+The MDT Sim WeakAura:
 https://wago.io/Yya4XBbl-
-Exports MDT routes into simc raid events.
 
 Requires the addon MythicDungeonTools:
 https://github.com/Nnoggie/MythicDungeonTools
 
-The "Simc Export" button exports all mobs with a fraction of their hp to attempt to simulate a single player's dps contribution to the dungeon using just one character profile. This defaults to 27%, a rough average based on logs, but can be configured with the "mob health %" input box. This value must be from 0 to 100 and should only be changed if you're sure you know what you're doing. For example, this set to 100 would export all mobs with full hp in the case you were going to sim a full dungeon run with 5 character profiles (see below for other important changes required for that case).
+Basic Usage:
 
-For this to take effect in Raidbots modes other than Advanced, "SimC Expert Mode" must be enabled and the simc export string pasted into the Footer section.
+Can be used with any Raidbots sim mode where Expert Mode exists. Paste your /simc profile into the inputs as usual, then enable Expert Mode and paste the entire output of the new "Simc Export" button result into the Footer section of Expert Mode.
 
-Advanced usage:
-The exported string contains sim options and a raid event list that matches the active route, for the full raid event documentation see the SimC Wiki:
+Advanced Usage:
+
+The export contains sim options and a raid event list that matches the active route, for the full raid event documentation see the SimC Wiki:
 https://github.com/simulationcraft/simc/wiki/RaidEvents#pull
 
-To ensure a more accurate sim, this resulting string can be modified for more advanced configuration:
+Each pull can be configured with these options for a more realistic run:
 
-- The buff overrides at the top can be modifed to enable any buffs that your desired group composition will provide.
+- The buff overrides at the top beginning with override. should be changed to 1 if your group composition will provide that party buff.
 - The delay values on each raid event line should ideally come from logs of past dungeon runs to establish approximate travel times to the pulls.
 - The bloodlust option on each raid event line forces a bloodlust cast at the start of that pull.
-- If multiple players are to be simmed at once with the desire that each player's damage affects the same mobs,
-    the single_actor_batch option should be changed to 0 and the mob health % input should be increased (doubled for 2 dps players etc.) accordingly to increase the mob hp.
-    Using a value of 100 and using 5 character profiles in the simc input would basically sim an entire dungeon run as if a real 5 player group was running it,
-    with packs dying realistically according to the group's combined damage.
+
+By default the "Simc Export" button exports all mobs with a fraction of their hp to simulate a single player's dps contribution to the dungeon using just one character profile. This currently defaults to 27% which is a rough average based on logs, but can be configured with the "mob health %" input box. This value must be from 0 to 100 and should only be changed if you're sure you know what you're doing.
+
+For example, this set to 100 would export all mobs with full hp in the case you were going to sim a full dungeon run with 5 character profiles. In the case of simming multiple profiles together, the single_actor_batch option should be changed to 0 and the mob health % input should be increased (doubled for 2 dps players etc.) accordingly to increase the mob hp.
