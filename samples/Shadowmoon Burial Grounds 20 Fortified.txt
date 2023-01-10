@@ -13,7 +13,7 @@ enemy="Shadowmoon Burial Grounds 20 Fortified"
 enemy_health=999999
 keystone_level=20
 keystone_pct_hp=27
-raid_events=/invulnerable,cooldown=3960,duration=3960,retarget=1
+
 raid_events+=/pull,pull=01,bloodlust=0,delay=011,mark_duration=13,enemies="Reanimated_Ritual_Bones_1":1169294:Undead|"Reanimated_Ritual_Bones_2":1169294:Undead|"Shadowmoon_Bone-Mender_1":1403153:Humanoid
 raid_events+=/pull,pull=02,bloodlust=0,delay=005,mark_duration=13,enemies="Shadowmoon_Loyalist_1":1286224:Humanoid|"Defiled_Spirit_1":876972:Undead|"Defiled_Spirit_2":876972:Undead|"Defiled_Spirit_3":876972:Undead
 raid_events+=/pull,pull=03,bloodlust=0,delay=010,mark_duration=13,enemies="Corpse_Skitterling_1":175394:Beast|"Corpse_Skitterling_2":175394:Beast|"Corpse_Skitterling_3":175394:Beast|"Corpse_Skitterling_4":175394:Beast|"Corpse_Skitterling_5":175394:Beast|"Corpse_Skitterling_6":175394:Beast|"Corpse_Skitterling_7":175394:Beast|"Corpse_Skitterling_8":175394:Beast|"Corpse_Skitterling_9":175394:Beast|"Corpse_Skitterling_10":175394:Beast

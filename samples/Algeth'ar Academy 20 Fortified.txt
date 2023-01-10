@@ -13,7 +13,7 @@ enemy="Algeth'ar Academy 20 Fortified"
 enemy_health=999999
 keystone_level=20
 keystone_pct_hp=27
-raid_events=/invulnerable,cooldown=3840,duration=3840,retarget=1
+
 raid_events+=/pull,pull=01,bloodlust=0,delay=005,mark_duration=13,enemies="Vile_Lasher_1":2102880:Elemental|"Vile_Lasher_2":2102880:Elemental|"Vile_Lasher_3":2102880:Elemental|"Hungry_Lasher_1":584134:Elemental|"Hungry_Lasher_2":584134:Elemental|"Hungry_Lasher_3":584134:Elemental|"Hungry_Lasher_4":584134:Elemental|"Hungry_Lasher_5":584134:Elemental|"Hungry_Lasher_6":584134:Elemental|"Hungry_Lasher_7":584134:Elemental|"Hungry_Lasher_8":584134:Elemental|"Hungry_Lasher_9":584134:Elemental|"Hungry_Lasher_10":584134:Elemental|"Hungry_Lasher_11":584134:Elemental|"Hungry_Lasher_12":584134:Elemental|"Hungry_Lasher_13":584134:Elemental|"Hungry_Lasher_14":584134:Elemental|"Hungry_Lasher_15":584134:Elemental|"Hungry_Lasher_16":584134:Elemental|"Hungry_Lasher_17":584134:Elemental|"Hungry_Lasher_18":584134:Elemental|"Hungry_Lasher_19":584134:Elemental|"Hungry_Lasher_20":584134:Elemental|"Hungry_Lasher_21":584134:Elemental|"Hungry_Lasher_22":584134:Elemental|"Hungry_Lasher_23":584134:Elemental|"Hungry_Lasher_24":584134:Elemental|"Aggravated_Skitterfly_1":934613:Elemental|"Aggravated_Skitterfly_2":934613:Elemental|"Aggravated_Skitterfly_3":934613:Elemental|"Aggravated_Skitterfly_4":934613:Elemental|"Aggravated_Skitterfly_5":934613:Elemental|"Aggravated_Skitterfly_6":934613:Elemental
 raid_events+=/pull,pull=02,bloodlust=1,delay=012,mark_duration=13,enemies="BOSS_Overgrown_Ancient":5827046:Elemental
 raid_events+=/pull,pull=03,bloodlust=0,delay=015,mark_duration=13,enemies="Guardian_Sentry_1":3504802:Elemental
